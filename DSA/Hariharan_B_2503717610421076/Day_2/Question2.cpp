@@ -22,7 +22,6 @@ int main()
     
     
     cout<<"Largest element in the array : "<<max;
-    system("pause");
    
     return 0;
     
