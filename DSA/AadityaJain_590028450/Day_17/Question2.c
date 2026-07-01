@@ -30,7 +30,7 @@ void insertEnd(int value){
     temp->next = ptr;
 }
 
-int cycle(struct node *head) {
+int cycle(struct node *head){
     struct node *slow = head;
     struct node *fast = head;
 
