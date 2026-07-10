@@ -5,7 +5,7 @@ import java.util.*;
 public class d25question2_technical {
     
     public static class Solution {
-    public int triangleNumber(int[] nums) {
+    public int tripleSumCheck(int[] nums) {
         Arrays.sort(nums);
         int count=0;
         for(int i=nums.length-1;i>=2;i--)
@@ -43,7 +43,7 @@ public class d25question2_technical {
 
         
         Solution sol = new Solution();
-        int ans = sol.triangleNumber(Arr);
+        int ans = sol.tripleSumCheck(Arr);
         System.out.print(ans>0);
         sc.close();
     }
